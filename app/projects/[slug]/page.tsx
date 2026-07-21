@@ -5,6 +5,8 @@ import { ArrowLeft, Github, ExternalLink, Calendar } from 'lucide-react'
 import Link from 'next/link'
 
 export default function ProjectPage({ params }: { params: { slug: string } }) {
+  // eslint-disable-next-line
+  void params
   // This will be replaced with Keystatic data fetching
   const project = {
     title: 'OIntel',

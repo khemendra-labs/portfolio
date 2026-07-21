@@ -5,7 +5,6 @@ import Link from 'next/link'
 import { useTheme } from 'next-themes'
 import { Moon, Sun, Menu, X, Search } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { cn } from '@/lib/utils'
 
 const navigation = [
   { name: 'About', href: '/about' },

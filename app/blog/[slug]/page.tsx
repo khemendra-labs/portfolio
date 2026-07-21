@@ -1,10 +1,11 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { ArrowLeft, Calendar, Clock } from 'lucide-react'
 import Link from 'next/link'
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  // eslint-disable-next-line
+  void params
   // This will be replaced with Keystatic data fetching
   const post = {
     title: 'Building Effective Threat Hunting Queries for SIEM',

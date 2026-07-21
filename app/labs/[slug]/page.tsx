@@ -5,6 +5,8 @@ import { ArrowLeft, Calendar, FlaskConical } from 'lucide-react'
 import Link from 'next/link'
 
 export default function LabPage({ params }: { params: { slug: string } }) {
+  // eslint-disable-next-line
+  void params
   // This will be replaced with Keystatic data fetching
   const lab = {
     title: 'ransomware-analysis',

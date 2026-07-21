@@ -1,10 +1,12 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { ArrowLeft, Calendar, FileText } from 'lucide-react'
+import { ArrowLeft, Calendar } from 'lucide-react'
 import Link from 'next/link'
 
 export default function ReportPage({ params }: { params: { slug: string } }) {
+  // eslint-disable-next-line
+  void params
   // This will be replaced with Keystatic data fetching
   const report = {
     title: 'windows-memory-forensics',
