@@ -4,7 +4,7 @@ const siteUrl = 'https://khemendra.labs'
 
 export async function GET() {
   const feed = new RSSFeed({
-    title: 'Khemendra Labs',
+    title: 'Khemendra Singh Khangarot',
     description: 'Cybersecurity Research & Engineering Portfolio',
     site_url: siteUrl,
     feed_url: `${siteUrl}/rss`,
